@@ -1,0 +1,850 @@
+/*nav*/
+
+.navbar ul li {
+margin-bottom:0;
+font-family: 'lato', sans-serif;
+font-size:16px;
+/*text-transform:uppercase;*/
+color:#fff;
+}
+
+/*img .navbar-brand {*/
+	/*background-image: url('../images/acc_logo.png');*/
+/*	background-repeat: no-repeat;
+	background-size:cover;*/
+/*	width:55%; */
+/*	min-width:333px; 
+	max-width:550px;
+	height:105px;
+	vertical-align: 0;
+	margin:0 auto;
+	float:left;
+}*/
+
+.navbar-default .navbar-nav>li>a {
+color:#fff;
+font-size:1.3em;
+text-decoration: none;
+/*padding-bottom:8px;*/
+	}
+
+	ul .nav .navbar-nav{
+		margin-bottom: 0px !important;
+		margin: 0 auto !important;
+		text-align:center;
+		float:none;
+
+	}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:#fff;
+	text-shadow: 0 0px 0;
+	margin: 0 auto;
+}
+/*underline effect*/
+.navbar-default .navbar-nav>li>a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav>li>a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navbar.navbar-default {
+border-width: 0px;
+-webkit-box-shadow: 0px 0px;
+box-shadow: 0px 0px;
+background-color: transparent;
+background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+color:#fff;
+z-index: 2;
+}
+
+#bs-example-navbar-collapse-1{
+	margin:0 auto;
+}
+
+@media (min-width:  1068px) {
+	.navbar {background-color: transparent !important;}
+}
+@media (max-width:  1068px) {
+	.navbar, .navbar .sub-menu {background-color: transparent !important;}
+	/*{background-color: #b11204 !important;} 1068*/
+}
+
+/*@media (min-width: 768px){
+.navbar-nav {
+	float:none;
+}
+*/
+
+/*general*/
+
+a{
+color:#fff;
+text-decoration: none !important;
+}
+
+img {
+	/*width:100%;*/
+  	height: auto;
+  	border: none;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	/*text-transform: uppercase;*/
+	margin:20px 0 40px 0;
+	font-size:35px;
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	margin:0 0 20px 0;
+	font-size:20px;
+}
+
+h4{
+	font-family: 'Lato',sans-serif;
+	line-height: 25px;
+	font-size:20px;
+}
+
+h1{
+
+}
+
+p{
+	font-family: 'Lato',sans-serif;
+	line-height: 25px;
+}
+
+nav{
+	position:absolute;
+	width:100%;	
+}
+
+body{
+	margin: 0 auto;
+}
+
+.button{
+	width:120px;
+	height:40px;
+	color:#fff;
+	text-align: center;
+	vertical-align:middle;
+	line-height:36px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+/*	text-transform: uppercase;*/
+	border-radius:40px;
+	display:inline-block;
+	margin-top:1.5em;
+ }
+
+ .button a:hover{
+ 	color:#fff;
+ }
+
+/*Home Header*/
+
+.section1{
+	width:100%;
+	min-height:15em;
+	height:27em;
+/*	padding-top:15em;*/
+	/*padding-bottom:20em;*/
+	background-image: url('../images/acc_home_banner.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header{	
+	margin: 0 auto;
+	width: 80%;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight:100;
+	text-transform: uppercase;
+	font-size:3em;
+	text-align:center;
+	vertical-align:center;
+}
+
+.main-header h1{
+	color:#fff;
+	font-size:45px;
+	margin-top:2em;
+	/*border: 3px #fff solid;*/
+	/*padding:10px;*/
+}
+
+.main-header .button{
+	width:20%;
+	/*max-width:250px;*/
+	min-width:365px;
+	color:#fff;
+	font-family:'roboto', sans-serif;
+	font-size: 25px;
+	margin: 0px;
+	text-transform:uppercase;
+	padding-top:0.5em;
+	height:2.5em;
+	border: #fff 1px solid;
+}
+
+.main-header .button:hover{
+	background-color: #a0251c;
+	width:20%;
+	/*max-width:250px;*/
+	min-width:365px;
+	color:#fff;
+	font-family:'roboto', sans-serif;
+	font-size: 25px;
+	margin: 0;
+	text-transform:uppercase;
+	padding-top:0.5em;
+	height:2.5em;
+	
+}
+
+.buttonheader{
+	border: 1px solid #fff;
+	border-radius:40px;
+	color: #fff;
+	padding:10px;
+	max-width:100px;
+	min-width:300px;
+	height:48px;
+	margin: 0 auto;
+	text-align:center;
+	vertical-align:center;
+
+}
+
+.main-header img{
+/*	height:90px;*/ 
+	/*width:100%;*/ 
+	min-width:333px; 
+	max-width:1251px !important;
+	vertical-align: 0;
+	margin:0 auto;
+	/*float:left;*/
+	/*position:absolute;*/
+}
+
+.head1 {
+	position: absolute;
+	width: 80%;
+	top: 0;
+}
+
+/*HOME - What we do*/
+
+.section2{
+	background-color:#fff;
+	width:100%;
+	max-width:1280px;
+	padding-top:4em;
+	padding-bottom:2em;
+	margin: 0 auto;
+}
+
+.service{
+	margin-bottom:40px;
+}
+
+.service img{
+	max-width:153px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service h2{
+	margin-bottom:60px;
+}
+
+.service h4{
+	height:80px;
+	margin-top:25px;
+	text-align:center;
+
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+} 
+.clearfix:after {
+    clear: both;
+}
+
+/*HOME - ticks + image*/
+
+.section3{
+/*	position: absolute;*/
+	background-image:url('../images/acc_red_house.png');
+	background-size: cover;
+	background-position: center;
+	/*background-color:#f6f6f6;*/
+	width:100%;
+	padding-top:5em;
+	margin-bottom:5em;
+}
+
+.tick_text_heading h2{
+	font-family: 'Lato', sans-serif;
+	/*text-transform: uppercase;*/
+	margin:20px 0 40px 0;
+	font-size:35px;
+	color:#ffffff;
+}
+
+.tick_text h4{
+	color:#fff;
+}
+
+.tick-text-image{
+	background-image: url('../images/acc_coffee_image.jpg');
+	background-size:cover;
+	background-position: center;
+	margin: 0 0 2em auto;
+	width:100%;
+	height:400px;
+	border: 10px #fff solid;
+}
+
+/*.tick_text{
+	margin-bottom:2.5em;
+	margin-left:2em;
+	color:#fff;
+}*/
+
+.sell-points h4{
+	font-family: 'Lato',sans-serif;
+/*	line-height: 0px;*/
+	font-size:20px;
+	color:#fff;
+	margin-bottom:0.5em;
+}
+
+.sell-points{
+	padding-bottom:1em;
+	font-family:'lato', sans-serif;
+/*	font-size:1.5em;*/
+	color:#fff;
+}
+
+.sell-points p {
+	font-size:16px;
+	line-height:27px;
+	font-family:'lato', sans-serif;
+	color:#fff;
+	font-weight:200;
+}
+
+/*HOME - testimonials*/
+
+.section4{
+	margin: 0 auto; 
+	height:auto;
+}
+
+.testimonial{
+	width:80%;
+	margin: 0 auto;
+}
+
+.testimonial h2{
+	margin-bottom:10px;
+}
+
+.testimonial h4{
+	margin-bottom:40px;
+}
+
+.my-slider{
+	/*margin-left:5em; 
+	margin-right:5em;*/
+	width:60%;
+	margin: 0 auto;
+}
+
+.my-slider ul li{
+	text-align:center;
+	margin: 0 auto;
+	font-family: 'open sans', sans-serif;
+	font-size:16px;
+	line-height:27px;
+}
+
+/* HOME - referral*/
+
+
+.section5{
+	background-color: #B11204;
+	width:100%;
+	height:auto;
+	margin-top:4em;
+}
+
+.referal {
+	
+	text-align:center;
+	color:#fff;
+}
+
+.referal h2{
+	padding-top:1em;
+	text-align:center;
+	color:#fff;
+	margin-bottom:0.7em;
+}
+
+.referal .button{
+	width:180px;
+	height:3em;
+	color:#fff;
+	text-align: center;
+	vertical-align:middle;
+	line-height:38px;
+/*	margin-left: auto;
+	margin-right: 20px;*/
+	/*margin-bottom: 20px;*/
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+/*	text-transform: uppercase;*/
+	/*border:1px solid #000;*/
+	display:inline-block;
+	margin-top:0em;
+	margin-bottom:2em;
+	background-color: #b11204;
+	border:2px solid #fff;
+ }
+
+ .referal .button:hover{
+	width:180px;
+	height:3em;
+	color:#fff;
+	text-align: center;
+	vertical-align:middle;
+	line-height:38px;
+/*	margin-left: auto;
+	margin-right: 20px;*/
+	/*margin-bottom: 20px;*/
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	/*text-transform: uppercase;*/
+	border:2px solid #fff;
+	display:inline-block;
+	margin-top:0em;
+	margin-bottom:2em;
+	background-color: #a0251c;
+ }
+
+ /*HOME - send us a message*/
+
+.section6 {
+	
+	background-image: url('../images/acc_home_banner.png');
+	background-color:#f3f3f3;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
+	height:auto;
+	padding-top: 4em;
+	padding-bottom:4em;
+}
+
+.submit_container{
+	width:100%;
+	margin: 0;
+	text-align: center;
+}
+
+.submit_container h2{
+	color:#fff;
+	margin-bottom: 1.5em;
+}
+
+input{
+	margin-bottom:1em;
+	width:100%;
+	border-radius: 50px;
+	background-color:#fff;
+	padding:10px;
+	padding-left:20px;
+	outline:none;
+	border:none;
+}
+
+
+#submit-button {
+	background-color: #b11204;
+	color:#fff;
+	padding: 10px;
+	width:100%;
+	font-family:'roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	text-transform:uppercase;
+}
+
+#submit-button:hover{
+	background-color:#a0251c;
+	color:#fff;
+}
+
+/*HOME - footer*/
+
+
+.footer{
+background-color: #000;
+width: 100%;
+height:auto;
+margin: 0 auto;
+}
+
+.footer1{
+	margin-top:1em;
+	text-align:center;
+}
+
+.footer1 p{
+	font-family: 'roboto', sans-serif;
+	font-size:1em;
+	display:inline-block;
+	padding-left:0.5em;
+	margin-bottom:0;
+}
+
+.footer2 p{
+	margin: 1em 0 0 0;
+	font-family:'roboto',sans-serif;
+	font-size:1em;
+	color:#fff;
+	text-align:center;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
+}
+
+.fa{
+	color:#fff;
+	margin-right:0.7em;
+}
+
+.social_icons{
+	text-align:center;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.social_icons .fa:hover{
+	color: #b11204;
+
+}
+
+ .footer2 p a:link a:visited a:active{
+	text-decoration: none;
+	color:#fff;
+}
+
+.footer2 a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+.footer1 a:hover{
+	color:#fff;
+}
+
+/*ABOUT*/ 
+
+.section1_about{
+	width:100%;
+	height:25em;
+/*	padding-top:15em;*/
+	/*padding-bottom:20em;*/
+	background-image: url('../images/acc_home_banner.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-header{
+	margin: 0 auto;
+/*	width: 40%;*/
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight:100;
+	text-transform: uppercase;
+	font-size:3em;
+	text-align:center;
+	vertical-align:center;
+}
+
+/*.about-header h1{
+	color:#fff;
+	font-size:45px;
+	margin-top:1em !important;
+}*/
+
+.about{
+	margin-bottom:6em;
+}
+
+.about-text p{
+	margin-top:30px;
+	font-size:16px;
+	line-height:27px;
+}
+
+.about-heading h2{
+	/*text-align:center;*/
+	margin: 60px 0px 0px 0px;
+}
+
+.member-of{
+	text-align:center;
+	margin-bottom:5em;
+}
+
+.member-of h2{
+	text-align:center;
+	margin-bottom:1em;
+}
+
+.member-of img{
+	width:6%;
+	height:auto;
+	margin-right:2em;
+	min-width:80px;
+}
+
+.member-of .cosl{
+	width:15%;
+	height:auto;
+}
+
+.about-clients{
+	background-image:url('../images/acc_red_house.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-testimonials-heading h2{
+	color:#fff;
+	margin-top:2em;
+}
+
+.about-testimonials{
+	color:#fff;
+	margin-bottom:4em;
+}
+
+.footer-about{
+background-color: #000;
+width: 100%;
+height:auto;
+margin-top:56px;
+}
+
+
+/*PRODUCTS*/
+
+.product li{
+	font-family:'Lato', sans-serif;
+	line-height:25px;
+	margin-left:1em;
+}
+
+.product{
+	margin-top:56px;
+}
+/*
+http://codepen.io/jurbank/pen/tcdFA*/
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+$bg-color: #d9d8c6;
+$primary-color: #5b5a5c;
+$secondary-color: darken($primary-color, 15%);
+
+body {
+  background: $bg-color;
+}
+
+li {
+  list-style: none;
+}
+
+.suga-container {
+  background: $primary-color;
+  padding: .2em;
+  max-width: 1170px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 0px $secondary-color;
+  border: 2px solid $secondary-color;
+  border-radius: 5px;
+}
+
+.suga-slider-wrap {
+  overflow: hidden;
+  margin: 1em;
+  max-width: 1170px;
+
+}
+
+.suga-slider-group {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+      max-width: 1170px;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.suga-slide {
+  float: left;
+  position: relative;
+  margin-left: 0px;
+  margin-right:25px;
+  padding-right: 8px;
+}
+
+.sectionX{
+	width:100%;
+	height:25em;
+	background-image: url('../images/acc_red_house.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:90px;
+}
+
+.advantedge{
+	background-image: url('../images/advantedge.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    width:100%;
+    min-width:370px;
+    min-height:50px;
+}
+
+.advantedge-text p {
+	font-size:16px;
+	line-height:27px;
+	font-family:'lato', sans-serif;
+	color:#000;
+	font-weight:200;
+}
+
+/*CONTACT*/
+
+.section-form{
+	background-image: url('../images/acc_red_house.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    margin-top:50px;
+}
+
+.form{
+	margin-top:5em;
+	margin-bottom:5em;
+}
+
+.contact_container{
+	width:60%;
+	min-width:370px;
+	margin: 0 auto;
+}
+
+.contact_container h2{
+	color:#fff;
+}
+
+.contact_container p{
+	color:#fff;
+	margin-bottom:0;
+}
+
+.form-header h2{
+	padding-top:90px;
+	margin-bottom: 0px;
+	margin: 0 auto;
+	width:100%;
+	color:#fff;
+	text-align: center;
+}
+
+.chat-header h2{
+	margin-top:2.5em;
+	margin-bottom: 2.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	min-width:390px;
+	text-align:center;
+}
+
+.contact-icons{
+	margin-bottom:1.5em;
+	margin-left:1.5em;
+}
+
+.contact_container #submit-button {
+	background-color: #b11204;
+	color:#fff;
+	padding: 10px;
+	width:100%;
+	font-family:'roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	text-transform:uppercase;
+	border: 2px solid #fff;
+}
+
+.contact_container #submit-button:hover{
+	background-color:#a0251c;
+	border:2px solid #fff;
+	color:#fff;
+}
+
+form #contact-submit .contact_container{
+	margin-top:0px !important;
+}
+
+
