@@ -11,7 +11,7 @@
  *   CSS and include that instead to use some of that
  *   hardware-accelerated goodness.
  */
-.unslider-nav ol {
+/*.unslider-nav ol {
   list-style: none;
   text-align: center;
 }
@@ -27,4 +27,4 @@
 }
 .unslider-nav ol li.unslider-active {
   background: transparent;
-}
+}*/

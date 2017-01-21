@@ -61,13 +61,13 @@
 			//  Do you want to generate clickable navigation
 			//  to skip to each slide? Accepts boolean true/false or
 			//  a callback function per item to generate.
-			nav: true,
+			nav: false,
 
 			//  Should there be left/right arrows to go back/forth?
 			//   -> This isn't keyboard support.
 			//  Either set true/false, or an object with the HTML
 			//  elements for each arrow like below:
-			arrows: {
+			arrows: false {
 				prev: '<a class="' + self._ + '-arrow prev">Prev</a>',
 				next: '<a class="' + self._ + '-arrow next">Next</a>'
 			},

@@ -61,7 +61,7 @@
 			//  Do you want to generate clickable navigation
 			//  to skip to each slide? Accepts boolean true/false or
 			//  a callback function per item to generate.
-			nav: true,
+			nav: false,
 
 			//  Should there be left/right arrows to go back/forth?
 			//   -> This isn't keyboard support.
