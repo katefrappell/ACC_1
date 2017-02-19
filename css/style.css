@@ -172,7 +172,7 @@ body{
 	height:27em;
 /*	padding-top:15em;*/
 	/*padding-bottom:20em;*/
-	background-image: url('../images/acc_home_banner.png');
+	background-image: url('../images/acc_home_banner2.png');
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -303,7 +303,7 @@ body{
 
 .section3{
 /*	position: absolute;*/
-	background-image:url('../images/acc_red_house.png');
+	background-image:url('../images/acc_red_house1.png');
 	background-size: cover;
 	background-position: center;
 	/*background-color:#f6f6f6;*/
@@ -468,7 +468,7 @@ body{
 
 .section6 {
 	
-	background-image: url('../images/acc_home_banner.png');
+	background-image: url('../images/acc_home_banner2.png');
 	background-color:#f3f3f3;
 	background-position: center;
     background-repeat: no-repeat;
@@ -564,7 +564,7 @@ margin: 0 auto;
 	height:25em;
 /*	padding-top:15em;*/
 	/*padding-bottom:20em;*/
-	background-image: url('../images/acc_home_banner.png');
+	background-image: url('../images/acc_home_banner2.png');
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -626,7 +626,7 @@ margin: 0 auto;
 }
 
 .about-clients{
-	background-image:url('../images/acc_red_house.png');
+	background-image:url('../images/acc_red_house1.png');
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -740,7 +740,7 @@ li {
 .sectionX{
 	width:100%;
 	height:auto;
-	background-image: url('../images/acc_red_house.png');
+	background-image: url('../images/acc_red_house1.png');
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -771,7 +771,7 @@ li {
 /*CONTACT*/
 
 .section-form{
-	background-image: url('../images/acc_red_house.png');
+	background-image: url('../images/acc_red_house1.png');
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
