@@ -840,6 +840,13 @@ li {
 	color:#fff;
 }
 
+
+.g-recaptcha > div {
+  width: 100% !important;
+  text-align:center;
+}
+
+
 form #contact-submit .contact_container{
 	margin-top:0px !important;
 }
